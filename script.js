@@ -35,7 +35,7 @@ const showDateTime = () => {
   }
 
   const dateMonthYear = date + "." + month + "." + year;
-  const time = hours + ":" + minutes + "." + seconds;
+  const time = hours + ":" + minutes + ":" + seconds;
   const fullTime = dateMonthYear + " " + time;
   return fullTime;
 };
