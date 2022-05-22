@@ -37,6 +37,7 @@ li {
   background-color: green;
   margin: 5px;
   padding: 20px;
+  list-style: none;
 }
 .completed {
   background-color: rgb(69, 246, 69, 0.9);

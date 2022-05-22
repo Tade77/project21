@@ -39,7 +39,7 @@ const showDateTime = () => {
   const fullTime = dateMonthYear + " " + time;
   return fullTime;
 };
-console.log(showDateTime());
+// console.log(showDateTime());
 setInterval(() => {
   timer.style.fontSize = "30px";
   timer.textContent = showDateTime();
